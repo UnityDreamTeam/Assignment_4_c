@@ -66,8 +66,9 @@
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\MovePlayer1.cs" />
     <Compile Include="Assets\Scripts\MovePlayer2.cs" />
-    <Compile Include="Assets\Scripts\Mover.cs" />
+    <Compile Include="Assets\Scripts\bulletMover.cs" />
     <Compile Include="Assets\Scripts\weapon1.cs" />
+    <Compile Include="Assets\Scripts\weapon2.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

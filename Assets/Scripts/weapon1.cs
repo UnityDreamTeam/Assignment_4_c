@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class weapon1 : MonoBehaviour
 {
@@ -23,7 +20,6 @@ public class weapon1 : MonoBehaviour
 
     private void Fire()
     {
-        GameObject newObject = Instantiate(shootPrefab, firePoint.position,transform.rotation);
-        Mover obj = newObject.GetComponent<Mover>();
+        Instantiate(shootPrefab, firePoint.position,transform.rotation);
     }
 }

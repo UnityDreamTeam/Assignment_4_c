@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5666174867182663969}
   - component: {fileID: 9000436056442318551}
   - component: {fileID: -9043483939975502976}
+  - component: {fileID: 8555647044685891899}
   m_Layer: 0
   m_Name: Shoot1
   m_TagString: Untagged
@@ -96,7 +97,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.5
+  m_Mass: 1.4
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -115,7 +116,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -148,4 +149,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c144b1fed3c1448a53f8d9bcee9116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 5666174867182663969}
+--- !u!114 &8555647044685891899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900667939724922305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afdd98e595d6d84caf20fd0c49a856d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

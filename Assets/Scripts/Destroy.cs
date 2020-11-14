@@ -2,8 +2,10 @@
 
 public class Destroy : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Destroy(gameObject);
+    [SerializeField] float time = 2f; //time in seconds to destroy the bullet
+    void Start() {
+        Destroy(gameObject, time);
     }
+        
+    
 }
