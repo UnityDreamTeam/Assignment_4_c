@@ -2,10 +2,12 @@
 
 public class Destroy : MonoBehaviour
 {
-    [SerializeField] float time = 2f; //time in seconds to destroy the bullet
-    void Start() {
-        Destroy(gameObject, time);
-    }
+    public GameObject impactEffect;
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Instantiate(impactEffect,transform.position,Quaternion.identity);
         
-    
+        Destroy(gameObject);
+        
+    }
 }
