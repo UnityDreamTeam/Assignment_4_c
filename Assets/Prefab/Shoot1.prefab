@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 5666174867182663969}
-  speed: 700
+  speed: 800
 --- !u!114 &8555647044685891899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,4 +163,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8afdd98e595d6d84caf20fd0c49a856d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impactEffect: {fileID: 0}
