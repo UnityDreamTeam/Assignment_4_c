@@ -13,3 +13,6 @@ control player 1:
  control player 2:
  move with WASD keys
  fire with space
+
+A link to play:
+https://dymgames.itch.io/assi
