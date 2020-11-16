@@ -1,6 +1,8 @@
 # Assignment_4_c
 
-a Tanke war game for assignment in course coputer game development.
+![TankWar](https://user-images.githubusercontent.com/57867818/99314137-4dfc7580-2869-11eb-9a8d-c969956cd8b4.png)
+
+This is our tank war game for assignment in course coputer game development.
 the player is a tank, and need to eliminate the other tank.
 you can move the player all over the map and fire booms while moving.
 each player has 3 life,
@@ -13,6 +15,9 @@ control player 1:
  control player 2:
  move with WASD keys
  fire with space
+
+This is our Kanban board:
+![jira4_-_maor](https://user-images.githubusercontent.com/57867818/99314143-505ecf80-2869-11eb-83ed-3af068b43465.jpg)
 
 A link to play:
 https://dymgames.itch.io/assi
