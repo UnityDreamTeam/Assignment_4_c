@@ -1,7 +1,7 @@
 # Assignment_4_c
 
-![TankWar](https://user-images.githubusercontent.com/57867818/99314137-4dfc7580-2869-11eb-9a8d-c969956cd8b4.png)
-
+![TankWar](https://user-images.githubusercontent.com/57867818/99314137-4dfc7580-2869-11eb-9a8d-c969956cd8b4.png)  
+![build pass](https://img.shields.io/badge/build-passing-brightgreen) ![platform unity](https://img.shields.io/badge/platform-unity-red)  
 This is our tank war game for assignment in course coputer game development.
 the player is a tank, and need to eliminate the other tank.
 you can move the player all over the map and fire booms while moving.
